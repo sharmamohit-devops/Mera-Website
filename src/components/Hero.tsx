@@ -16,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: 'easeOut' }}
           className="text-center md:text-left mb-12 md:mb-0 md:pl-20"
         >
-          <h2 className="text-3xl font-light mb-2">Hello, I'm</h2>
+          <h2 className="text-3xl font-light mb-2">Hello, I&apos;m</h2>
           <h1 className="text-6xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Mohit Sharma</h1>
           <div className="text-2xl font-semibold text-teal-300 h-10">
             <Typewriter

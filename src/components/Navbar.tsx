@@ -2,14 +2,12 @@
 
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { useTheme } from 'next-themes';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  const { theme, setTheme } = useTheme();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);

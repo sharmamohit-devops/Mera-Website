@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/mohitsharma_dev7/" target="_blank" className="hover:text-pink-500 transition-colors"><FaInstagram size={28} /></a>
           <a href="mailto:mohitfrontendev@gmail.com" className="hover:text-pink-500 transition-colors"><FaEnvelope size={28} /></a>
         </div>
-        <p className="mb-4 text-lg">Let's build something amazing together!</p>
+        <p className="mb-4 text-lg">Let&apos;s build something amazing together!</p>
         <p className="text-gray-500">© {new Date().getFullYear()} Mohit Sharma. All rights reserved.</p>
       </div>
     </footer>
