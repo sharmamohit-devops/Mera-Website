@@ -56,7 +56,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'h-16 bg-gray-900/80 backdrop-blur-md' : 'h-20 bg-transparent'}`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'h-16 bg-gray-900/80 backdrop-blur-md' : 'h-20 bg-gray-900/80 backdrop-blur-md'}`}
     >
       <div className="container mx-auto px-6 h-full flex justify-start items-center">
         <div className="logo mr-auto">
