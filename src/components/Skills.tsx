@@ -13,7 +13,8 @@ const skills = [
   { name: 'Mongoose', icon: '/icons8-mongoose-48.png' },
   { name: 'Bootstrap', icon: '/icons8-bootstrap-48.png' },
   { name: 'Tailwind CSS', icon: '/icons8-tailwind-css-100.png' },
-  { name: 'MATLAB', icon: '/file.svg' },
+  { name: 'MATLAB', icon: '/6301871740192a1336bcd908_32e39e57.png' },
+  { name: 'Next.js', icon: '/329ad85f4ab2047cae13d582274f9270.jpg' },
 ];
 
 const cardVariants = {
@@ -46,14 +47,14 @@ const Skills = () => {
           {skills.map((skill, i) => (
             <motion.div
               key={skill.name}
-              className="bg-gray-800 rounded-lg p-6 flex flex-col items-center justify-center transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#38bdf8] w-64 h-64 mx-auto"
+              className="bg-gray-800 rounded-2xl p-6 flex flex-col items-center justify-center transform transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_#38bdf8] w-64 h-64 mx-auto"
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               custom={i}
             >
-              <div className="relative w-20 h-20 mb-4">
+              <div className={`relative mb-4 ${skill.name === 'MATLAB' ? 'w-24 h-24' : 'w-20 h-20'}`}>
                 <Image src={skill.icon} alt={skill.name} layout="fill" objectFit="contain" />
               </div>
               <h3 className="text-xl font-semibold">{skill.name}</h3>
@@ -66,3 +67,4 @@ const Skills = () => {
 };
 
 export default Skills;
+

@@ -63,7 +63,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <motion.div
               key={index}
-              className="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl w-full md:w-3/4 mx-auto"
+              className="bg-gray-900 rounded-2xl shadow-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl w-full md:w-3/4 mx-auto"
               style={{ height: 'auto' }}
               variants={cardVariants}
               initial="hidden"

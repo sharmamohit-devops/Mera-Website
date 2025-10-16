@@ -60,7 +60,7 @@ const Education = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              <div className={`bg-gray-800 rounded-lg shadow-lg p-6 transform transition-transform hover:scale-105 w-full md:w-11/12 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
+              <div className={`bg-gray-800 rounded-2xl shadow-lg p-6 transform transition-transform hover:scale-105 w-full md:w-11/12 ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
                 <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400 mb-2">{edu.degree}</h3>
                 <p className="text-lg font-semibold text-white mb-1">{edu.institution}</p>
                 <p className="text-sm text-gray-400 mb-4">{edu.duration}</p>
